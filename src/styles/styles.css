@@ -1,0 +1,33 @@
+/* MY CSS RESET */
+@font-face {
+  font-family: palatino-sans;
+  src: url(../assets/fonts/palatino-sans/lt-w04-medium.otf);
+}
+
+:root {
+    --primary-color: #f7e9d3;
+    --secondary-color: #301311;
+    --accent-color: #772025;
+    --accent-color-two: #c56267;
+
+    font-family: palatino-sans, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --primary-font-size: 3em;
+    --secondary-font-size: 2.25em;
+    --body-font-size: 1.5em;
+    --input-font-size: 0.75em;
+    --metadata-font-size: 0.25em;
+
+    --border-radius: 8px;
+
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+/* I LIKE TO SEE THE BOXES */
+/* body > *, body > * > * {
+    border: 1px solid black;
+} */
