@@ -25,9 +25,22 @@
 
 body {
     min-height: 100vh;
+    margin: 0;
+    display: flex;
 }
 
 /* I LIKE TO SEE THE BOXES */
 /* body > *, body > * > * {
     border: 1px solid black;
 } */
+
+.nav {
+    flex: 1;
+    background-color: var(--accent-color);
+}
+
+.content {
+    flex: 3;
+    background-color: var(--primary-color);
+    padding-left: 2em;
+}
