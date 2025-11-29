@@ -10,7 +10,7 @@ module.exports = {
     filename: "main.js",
     path: path.resolve(__dirname, "dist"),
     clean: true,
-    publicPath: '/com/', // Make sure the URL subpath is prepended with the repo name
+    publicPath: '/', // Make sure the URL subpath is prepended with the repo name
   },
   devtool: "eval-source-map",
   devServer: {
