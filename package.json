@@ -1,5 +1,5 @@
 {
-  "name": "dev-template",
+  "name": "node-template",
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",

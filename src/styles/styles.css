@@ -44,3 +44,12 @@ body {
     background-color: var(--primary-color);
     padding-left: 2em;
 }
+
+body {
+    opacity: 0;
+    transition: opacity 2s ease-in;
+}
+
+.page-loaded {
+    opacity: 1;
+}
